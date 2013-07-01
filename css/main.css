@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'PecitaMedium';
+    src: url('../font/Pecita-webfont.eot');
+    src: url('../font/Pecita-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Pecita-webfont.woff') format('woff'),
+         url('../font/Pecita-webfont.ttf') format('truetype'),
+         url('../font/Pecita-webfont.svg#PecitaMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*16px = 12 pt =100% =1 em*/
+body{
+	background-color: #A9AB9C;
+	color:#fff;
+	font-family: 'PecitaMedium', helvetica, verdana;
+	font-size: 2em;
+
+}
+h2{
+	color: #ED3253;
+	margin: 0.25em auto;
+	text-align: center;
+}
+header, nav, footer{
+	background-color: #1E6381;
+	border-radius: 15px;
+	margin: 0.5em auto;
+	max-width: 960px;
+	padding: 0.25em;
+	text-align: center;
+	border: 2px #CDCEC6 solid;
+}
+/*id problemas con estandarizacion*/
+/*ya no float*/
+/**/
+section#contenedor{
+	margin: 0.5em auto;
+	max-width: 960px;
+	padding: 0;
+	text-align: center;
+}
+section#principal, aside{
+	background-color: #1E6381;
+	border: 2px #CDCEC6 solid;
+	border-radius: 15px;
+	display: inline-block;  /*linea y despues bloque*/
+	margin: 0.25em auto;
+	max-width: 960px;
+	min-height: 200px;
+	text-align: center;
+	vertical-align: top;/*aside ya no abajo*/
+	width: 65%;
+}
+article{
+	background-color: #011E30;
+	border-radius: 15px;
+	min-height: 140px;
+	margin: 0.25em;
+}
+aside{
+	width: 30%;
+}
+@media(max-width: 600px){
+	section#principal{
+		width: 90%
+	}
+	aside{
+		color: #011E30;
+		background-color: #FFFFFF;
+		width: 90%;
+	}
+}

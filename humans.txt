@@ -1,0 +1,22 @@
+/* KnowMyBusiness.hol.es | El mejor lugar para Geolocalizar tus Negocios. - http://knowmybusiness.hol.es */
+
+/* TEAM */
+     Creator: Rayner Villalba Mendieta
+     Contact: rayner.villalba[at]gmail.com
+     Twitter: @miguel1454
+     From: La Paz city, Bolivia
+
+/* IN MEMORIAL */
+     Guillermina
+
+/* THANKS */ 
+
+     Lidia, Pablo, Jorge
+     UNIVERSIDAD CATOLICA http://lpz.ucb.edu.bo/Forms/Index.aspx
+
+/* SITE */
+     Last update: 2013/01/08
+     Language: Español
+     Standars: HTML5, CSS3, JavaScript
+     Components: jQuery
+     Software: SublimeText2
